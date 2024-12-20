@@ -5,7 +5,7 @@ variable "aws_region" {
 
 variable "aws_type" {
   description = "AWS ec2 type"
-  default = "t2.medium"
+  default = "t3.medium"
 }
 
 variable "aws_ami" {
